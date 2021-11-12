@@ -1,0 +1,123 @@
+******mycounter 10000 signals http requests******
+2021-11-04T11:23:17.122 [Information] Executing 'Counter' (Reason='(null)', Id=86367343-13d7-4dc1-851c-b917dea8f660)
+2021-11-04T11:23:17.125 [Information] Executed 'Counter' (Succeeded, Id=86367343-13d7-4dc1-851c-b917dea8f660, Duration=3ms)
+2021-11-04T11:23:17.127 [Information] Executing 'Counter' (Reason='(null)', Id=5fbc25c0-7118-40c5-b382-06802dafd2d2)
+2021-11-04T11:23:17.127 [Information] Executed 'Counter' (Succeeded, Id=5fbc25c0-7118-40c5-b382-06802dafd2d2, Duration=0ms)
+2021-11-04T11:23:17.387 [Information] Executing 'Counter' (Reason='(null)', Id=f7ea7274-e446-425d-96c6-885e45f9dfee)
+2021-11-04T11:23:17.388 [Information] Executed 'Counter' (Succeeded, Id=f7ea7274-e446-425d-96c6-885e45f9dfee, Duration=1ms)
+2021-11-04T11:23:17.390 [Information] Executing 'Counter' (Reason='(null)', Id=963c7fa9-da5d-435a-8926-034cc5cea762)
+2021-11-04T11:23:17.390 [Information] Executed 'Counter' (Succeeded, Id=963c7fa9-da5d-435a-8926-034cc5cea762, Duration=0ms)
+2021-11-04T11:23:17.540 [Information] Executing 'Counter' (Reason='(null)', Id=331f2442-46b1-4b21-8196-c37d6faf90db)
+2021-11-04T11:23:17.542 [Information] Executed 'Counter' (Succeeded, Id=331f2442-46b1-4b21-8196-c37d6faf90db, Duration=1ms)
+2021-11-04T11:23:17.552 [Information] Executing 'Counter' (Reason='(null)', Id=aa869946-2cf0-4d76-b658-a206d333fb22)
+2021-11-04T11:23:17.552 [Information] Executed 'Counter' (Succeeded, Id=aa869946-2cf0-4d76-b658-a206d333fb22, Duration=9ms)
+2021-11-04T11:23:17.592 [Information] Executing 'Counter' (Reason='(null)', Id=0125105e-6fdd-46f6-b8d4-d290611d5afe)
+2021-11-04T11:23:17.594 [Information] Executed 'Counter' (Succeeded, Id=0125105e-6fdd-46f6-b8d4-d290611d5afe, Duration=2ms)
+2021-11-04T11:23:17.595 [Information] Executing 'Counter' (Reason='(null)', Id=18d4217f-1d5e-4f7d-adad-0ccc5ebaadcb)
+2021-11-04T11:23:17.595 [Information] Executed 'Counter' (Succeeded, Id=18d4217f-1d5e-4f7d-adad-0ccc5ebaadcb, Duration=0ms)
+2021-11-04T11:23:17.835 [Information] Executing 'Counter' (Reason='(null)', Id=8bd6bb6d-d834-4b66-83cc-2f7141ececd9)
+2021-11-04T11:23:17.836 [Information] Executed 'Counter' (Succeeded, Id=8bd6bb6d-d834-4b66-83cc-2f7141ececd9, Duration=1ms)
+2021-11-04T11:23:17.838 [Information] Executing 'Counter' (Reason='(null)', Id=61e35ac4-fc08-453e-a25a-e746c604a466)
+2021-11-04T11:23:17.838 [Information] Executed 'Counter' (Succeeded, Id=61e35ac4-fc08-453e-a25a-e746c604a466, Duration=0ms)
+2021-11-04T11:23:17.949 [Information] Executing 'Counter' (Reason='(null)', Id=501bbe3d-00a3-43cb-af8a-5f240e9f2b63)
+2021-11-04T11:23:17.953 [Information] Executed 'Counter' (Succeeded, Id=501bbe3d-00a3-43cb-af8a-5f240e9f2b63, Duration=4ms)
+2021-11-04T11:23:17.954 [Information] Executing 'Counter' (Reason='(null)', Id=dcb54285-8b34-4fbc-be72-c23b8b823c65)
+2021-11-04T11:23:17.955 [Information] Executed 'Counter' (Succeeded, Id=dcb54285-8b34-4fbc-be72-c23b8b823c65, Duration=0ms)
+
+2021-11-04T11:57:23.355 [Information] Executed 'Counter' (Succeeded, Id=3e744b58-f922-4147-9eaf-b9b2662028d4, Duration=0ms)
+Starting at 11:23:17.122 ... Finished at T11:57:23.355 --> 2046000 ms/ 10000 signals = 204.6 ms/signal
+
+*****orchestratoronethousandsignals 1000 signals******
+2021-11-02T11:27:15.381 [Information] ******End Orchestrator ;be2dad15148f407a8ea2ba41eb37a243,1000 signals current val ;2000 ,elapsed time ;50 ms.
+    
+                                                                         --> 50/1000 = 0.05 ms/signal
+																		 																		
+******tensuborchestratorwithonethousandsignals 10 subOrchestrator with 1000 signals per Orchestrator******
+2021-11-04T14:38:04.637 [Information] ******End Orchestrator ;c39faf3e46c8404486bb0a04eba750b2:8,1000 signals current val ;20000 ,elapsed time ;123 ms.
+2021-11-04T14:38:05.397 [Information] ******End Orchestrator ;c39faf3e46c8404486bb0a04eba750b2:3,1000 signals current val ;20000 ,elapsed time ;212 ms.
+2021-11-04T14:38:05.539 [Information] ******End Orchestrator ;c39faf3e46c8404486bb0a04eba750b2:0,1000 signals current val ;20000 ,elapsed time ;397 ms.
+2021-11-04T14:38:05.678 [Information] ******End Orchestrator ;c39faf3e46c8404486bb0a04eba750b2:7,1000 signals current val ;20000 ,elapsed time ;536 ms.
+2021-11-04T14:38:05.911 [Information] ******End Orchestrator ;c39faf3e46c8404486bb0a04eba750b2:4,1000 signals current val ;20000 ,elapsed time ;139 ms.
+2021-11-04T14:34:19.975 [Information] ******End Orchestrator ;c39faf3e46c8404486bb0a04eba750b2:2,1000 signals current val ;14172 ,elapsed time ;108 ms.
+2021-11-04T14:34:21.023 [Information] ******End Orchestrator ;c39faf3e46c8404486bb0a04eba750b2:5,1000 signals current val ;14172 ,elapsed time ;180 ms.
+2021-11-04T14:34:21.052 [Information] ******End Orchestrator ;c39faf3e46c8404486bb0a04eba750b2:9,1000 signals current val ;14172 ,elapsed time ;101 ms.
+2021-11-04T14:34:21.311 [Information] ******End Orchestrator ;c39faf3e46c8404486bb0a04eba750b2:1,1000 signals current val ;14172 ,elapsed time ;163 ms.
+2021-11-04T14:38:21.048 [Information] ******End Orchestrator ;c39faf3e46c8404486bb0a04eba750b2:6,1000 signals current val ;20000 ,elapsed time ;80 ms.
+
+
+Starting at 2021-11-04T14:31:55.324 ... Finished at 2021-11-04T14:38:21.049 --> 386000 ms/ 10000 signals = 38.6 ms/signal	
+
+																	 
+***** 10 orchestratoronethousands 10000 signals******
+2021-11-02T11:31:41.923 [Information] ******End Orchestrator ;ed3680269be748d4806e156ab1842c93,1000 signals current val ;12000 ,elapsed time ;65 ms.
+2021-11-02T11:31:42.147 [Information] ******End Orchestrator ;71e3ab66eecf4e3b80568552d6bc9c27,1000 signals current val ;12000 ,elapsed time ;77 ms.
+2021-11-02T11:31:43.440 [Information] ******End Orchestrator ;9ffdbf2c5e084142a635d4c83b87e131,1000 signals current val ;12000 ,elapsed time ;130 ms.
+2021-11-02T11:31:43.463 [Information] ******End Orchestrator ;4e4e2fbbb2c14ce19270138708620869,1000 signals current val ;12000 ,elapsed time ;100 ms.
+2021-11-02T11:31:45.612 [Information] ******End Orchestrator ;cc910488766041bfa1bb19daffc00d86,1000 signals current val ;12000 ,elapsed time ;50 ms.
+2021-11-02T11:31:43.042 [Information] ******End Orchestrator ;2a4bb0e3596b4df299bb3f2acddfec2f,1000 signals current val ;12000 ,elapsed time ;335 ms.
+2021-11-02T11:31:46.872 [Information] ******End Orchestrator ;81e22e62e63c4db3a84967830cef4414,1000 signals current val ;12000 ,elapsed time ;68 ms.
+2021-11-02T11:31:46.944 [Information] ******End Orchestrator ;a6a78711eb7a4367bb16e5ac5226c743,1000 signals current val ;12000 ,elapsed time ;143 ms.
+2021-11-02T11:31:40.470 [Information] ******End Orchestrator ;986a9c5385024505bbbdd7f1bba38521,1000 signals current val ;12000 ,elapsed time ;38 ms.
+2021-11-02T11:31:43.979 [Information] ******End Orchestrator ;04069f5306b6464e8535f157b95d1611,1000 signals current val ;12000 ,elapsed time ;41 ms.
+
+Starting at 11:30:15.040 ... Finished at 2021-11-02T11:31:43.979 --> 88000 ms/ 10000 signals = 8.8 ms/signal
+
+
+*****10 orchestratoronethousands 10000 signals******
+2021-11-03T12:35:54.170 [Information] ******End Orchestrator ;16acf85d0c4d45ff939a4e7ec1fa6140,1000 signals current val ;49000 ,elapsed time ;97 ms.
+2021-11-03T12:35:54.427 [Information] ******End Orchestrator ;ed7d98627ed346b789c19c52ed806be0,1000 signals current val ;49000 ,elapsed time ;132 ms.
+2021-11-03T12:35:54.580 [Information] ******End Orchestrator ;17d7c6d36a8e44349468eeebac743ca3,1000 signals current val ;49000 ,elapsed time ;136 ms.
+2021-11-03T12:35:54.705 [Information] ******End Orchestrator ;499cfa15fa0a47b99e5adc2902d703d1,1000 signals current val ;49000 ,elapsed time ;404 ms.
+2021-11-03T12:35:54.819 [Information] ******End Orchestrator ;c3a1817d2f05412180553354201fa6f5,1000 signals current val ;49000 ,elapsed time ;280 ms.
+2021-11-03T12:36:05.690 [Information] ******End Orchestrator ;3e36654ad9d04ad38fce5b71732af1d8,1000 signals current val ;49000 ,elapsed time ;105 ms.
+2021-11-03T12:36:05.926 [Information] ******End Orchestrator ;15ef29ee1a5f4726ac486deb46a19579,1000 signals current val ;49000 ,elapsed time ;205 ms.
+2021-11-03T12:35:52.344 [Information] ******End Orchestrator ;d3efff6e13fc4bdaafd8335444854f51,1000 signals current val ;49000 ,elapsed time ;89 ms.
+2021-11-03T12:36:13.356 [Information] ******End Orchestrator ;82c00ed6c26c465492faa31e8bf1b611,1000 signals current val ;49000 ,elapsed time ;102 ms.
+2021-11-03T12:36:13.428 [Information] ******End Orchestrator ;adb05b6ead7a422284a5cd7d189141bb,1000 signals current val ;49000 ,elapsed time ;158 ms.
+
+Starting at 12:35:31.266 ... Finished at 12:36:13.429 --> 42000 ms/ 10000 signals = 4.2 ms/signal
+
+*****1 orchestratortenthousandssignal 10000 signals******
+2021-11-03T15:55:34.678 [Information] ******End Orchestrator ;e6966cc45c0141aa8d805541fd8fe4fb,10000 signals current val ;10000 ,elapsed time ;790 ms.
+Starting at 2021-11-03T15:51:23.860 ... Finished at 2021-11-03T15:55:34.678 --> 251000 ms/ 10000 signals = 25.1 ms/signal
+
+
+*****6 orchestratoronethousandsignals 6000 signals ******
+2021-11-03T12:28:32.102 [Information] ******End Orchestrator ;26d168c8a8f943e18a30da86e9a65853,1000 signals current val ;39000 ,elapsed time ;61 ms.
+2021-11-03T12:28:32.568 [Information] ******End Orchestrator ;60bbfdd65d6f494eba957f398f8a0a7f,1000 signals current val ;39000 ,elapsed time ;79 ms.
+2021-11-03T12:28:32.717 [Information] ******End Orchestrator ;1e002824c6724e84bc2b1e045561a564,1000 signals current val ;39000 ,elapsed time ;77 ms.
+2021-11-03T12:28:38.077 [Information] ******End Orchestrator ;75587383352a486b9778a36324b57f31,1000 signals current val ;39000 ,elapsed time ;104 ms.
+2021-11-03T12:28:38.281 [Information] ******End Orchestrator ;80066b6a80144799b09399e186a0b9d4,1000 signals current val ;39000 ,elapsed time ;220 ms.
+2021-11-03T12:28:38.369 [Information] ******End Orchestrator ;5687f9f0c3c044bfb970d737fdc3e894,1000 signals current val ;39000 ,elapsed time ;137 ms.
+
+Starting at 2021-11-03T12:27:38.263 ... Finished at 2021-11-03T12:28:38.370 --> 60000 ms/ 6000 signals = 10 ms/signal
+
+*****20 orchestratoronethousands 20000 signals******
+021-11-03T16:07:16.154 [Information] ******End Orchestrator ;cfbd9a0b5d8349d6be8f0ffe00879017,1000 signals current val ;69000 ,elapsed time ;66 ms.
+2021-11-03T16:07:16.555 [Information] ******End Orchestrator ;de7f8bda8ba5479db64a7275721ad25e,1000 signals current val ;69000 ,elapsed time ;122 ms.
+2021-11-03T16:07:16.587 [Information] ******End Orchestrator ;c3e60f823856469abe10873cc3d539f1,1000 signals current val ;69000 ,elapsed time ;72 ms.
+2021-11-03T16:07:16.782 [Information] ******End Orchestrator ;3e739995f73f4bca913a05c75fe7d0ca,1000 signals current val ;69000 ,elapsed time ;339 ms.
+2021-11-03T16:07:17.023 [Information] ******End Orchestrator ;f0e7f37df49e4c6d9fd18cf821a08053,1000 signals current val ;69000 ,elapsed time ;329 ms.
+2021-11-03T16:07:17.026 [Information] ******End Orchestrator ;b538393576894e28988f32dac24cdf53,1000 signals current val ;69000 ,elapsed time ;70 ms.
+2021-11-03T16:06:58.946 [Information] ******End Orchestrator ;00d90de01ce642a3b341b8b14fbb094d,1000 signals current val ;69000 ,elapsed time ;68 ms.
+2021-11-03T16:07:02.619 [Information] ******End Orchestrator ;fe20d885a8b5443087c3350b60d546ff,1000 signals current val ;69000 ,elapsed time ;75 ms.
+2021-11-03T16:07:02.661 [Information] ******End Orchestrator ;e3e70065038a46bcbec0dac6e9f5b9cb,1000 signals current val ;69000 ,elapsed time ;69 ms.
+2021-11-03T16:07:06.343 [Information] ******End Orchestrator ;9711c0dadf09438ea823f03e0d1767a2,1000 signals current val ;69000 ,elapsed time ;78 ms.
+2021-11-03T16:07:11.814 [Information] ******End Orchestrator ;3711ad5dfc2e44cdbb8adae56d0a92ad,1000 signals current val ;69000 ,elapsed time ;62 ms.
+2021-11-03T16:07:15.020 [Information] ******End Orchestrator ;1b0051929a9f4fdc9b5d4f87324670e8,1000 signals current val ;69000 ,elapsed time ;68 ms.
+2021-11-03T16:07:16.104 [Information] ******End Orchestrator ;34c4c9c73a14432f81fbf51e14e82659,1000 signals current val ;69000 ,elapsed time ;101 ms.
+2021-11-03T16:07:16.135 [Information] ******End Orchestrator ;f4469c4523164db89dbb30f892b05861,1000 signals current val ;69000 ,elapsed time ;133 ms.
+2021-11-03T16:07:16.292 [Information] ******End Orchestrator ;9185951a3ebe4af4ac36742fb93cf154,1000 signals current val ;69000 ,elapsed time ;51 ms.
+2021-11-03T16:07:02.683 [Information] ******End Orchestrator ;40c9e413e80c40059db996d0ae4a65e5,1000 signals current val ;69000 ,elapsed time ;81 ms.
+2021-11-03T16:07:02.846 [Information] ******End Orchestrator ;8b5c9e13b1aa4349b31e5c0a63a0e5c5,1000 signals current val ;69000 ,elapsed time ;168 ms.
+2021-11-03T16:07:06.578 [Information] ******End Orchestrator ;d8e4b50f97dd4f83bd4981ec501661eb,1000 signals current val ;69000 ,elapsed time ;165 ms.
+2021-11-03T16:07:06.591 [Information] ******End Orchestrator ;6d107dcb8d274c5f80dd7c2cf4df3937,1000 signals current val ;69000 ,elapsed time ;84 ms.
+2021-11-03T16:07:06.698 [Information] ******End Orchestrator ;edaf8be8302a4814adff91aa3848b8ed,1000 signals current val ;69000 ,elapsed time ;280 ms.
+
+Starting at 2021-11-03T16:04:13.912... Finished at 2021-11-03T16:07:06.698 --> 173000 ms/ 20000 signals = 8.65 ms/signal
+
+
+*****2 orchestratortenthousandssignal 20000 signals******
+2021-11-04T08:29:10.341 [Information] ******End Orchestrator ;dac30598a0044af98e6a137a6a836221,10000 signals current val ;30000 ,elapsed time ;1720 ms.
+2021-11-04T08:29:16.674 [Information] ******End Orchestrator ;482d740687ad4922b9199d0722de8ee7,10000 signals current val ;30000 ,elapsed time ;1293 ms.
+Starting at 2021-11-04T08:20:30.662 ... Finished at 08:29:16.675 --> 526000 ms/ 10000 signals = 26.3 ms/signal
